@@ -29,6 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	.circle-image {
+		border-radius: 50%; /* Makes the image round */
+		border: 2px solid #ffffff; /* Adjust color and size as needed */
+		width: 100px; /* Adjust size as needed */
+		height: 100px; /* Adjust size as needed */
+		object-fit: cover; /* Keeps the aspect ratio */
+	}
+	
+
 body {
 	line-height: 1;
 }
